@@ -79,11 +79,13 @@ body {
 /* -----------------------features------------------------ */
 .features {}
 
+.features-title {}
+
 .features-list {}
 
 .features-item {}
 
-.features-title {
+.features-caption {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
