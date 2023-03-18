@@ -25,7 +25,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--logo-color);
-    text-decoration: none
+    text-decoration: none;
 }
 
 .nav-list {}
