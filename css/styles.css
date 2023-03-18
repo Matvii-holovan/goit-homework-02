@@ -5,7 +5,9 @@ body {
     background-color: #FFFFFF;
 }
 
-:root {}
+:root {
+    --logo-color: #4d5ae5;
+}
 
 /* -----------------------header------------------------ */
 .header {
@@ -14,11 +16,16 @@ body {
 
 .header-nav {}
 
-.logo {
+.link{
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
-    color: #2E2F42;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-color);
+    text-decoration: none
 }
 
 .nav-list {}
@@ -132,11 +139,11 @@ body {
     color: #2E2F42;
 }
 
-.workers-list {
+.workers-list {}
+
+.workers-item {
     background-color: #FFFFFF;
 }
-
-.workers-item {}
 
 .workers-subject {
     font-weight: 500;
