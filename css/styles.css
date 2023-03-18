@@ -7,6 +7,7 @@ body {
 
 :root {
     --logo-color: #4d5ae5;
+    --logo-color1: #2e2f42;
 }
 
 /* -----------------------header------------------------ */
@@ -26,6 +27,9 @@ body {
     text-transform: uppercase;
     color: var(--logo-color);
     text-decoration: none;
+}
+.accent {
+    color: var(--logo-color1);
 }
 
 .nav-list {}
