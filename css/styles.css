@@ -7,17 +7,20 @@ body {
 
 :root {
     --logo-color: #4d5ae5;
-    --logo-color1: #2e2f42;
+    --color-link: #2e2f42;
+    --color-address: #434455;
 }
 
 /* -----------------------header------------------------ */
 .header {
     background-color: #E7E9FC;
 }
-
+.link {
+    text-decoration: none;
+}
 .header-nav {}
 
-.link{
+.logo{
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -29,38 +32,48 @@ body {
     text-decoration: none;
 }
 .accent {
-    color: var(--logo-color1);
+    color: var(--color-link);
 }
 
 .nav-list {}
 
 .header-item {
+    
+}
+.header-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--color-link);
+}
+.header-link:hover,
+.header-link:focus {
+    color: #404bbf;
 }
 
 /* -----------------------address------------------------ */
+.address {
+    font-style: normal;
+}
+
 .address-list {}
 
 .list {
     list-style: none;
 }
 
-.address-mail {
+.address-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
-.address-phone {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #434455;
+.address-link:hover,
+.address-link:focus {
+    color: #404bbf;
 }
 
 /* -----------------------Hero------------------------ */
