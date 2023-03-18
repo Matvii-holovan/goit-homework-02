@@ -29,7 +29,6 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--logo-color);
-    text-decoration: none;
 }
 .accent {
     color: var(--color-link);
