@@ -81,21 +81,29 @@ body {
     background: #2E2F42;
 }
 
-.hero-text {
+.hero-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 
 .hero-btn {
-    font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: #4D5AE5;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404BBF;
+    cursor: pointer;
 }
 
 .btn {}
@@ -201,7 +209,7 @@ body {
 
 .portfolio {}
 
-.portfolio-hero-tite {}
+.portfolio-hero-title {}
 
 .portfolio-list-btn {}
 
