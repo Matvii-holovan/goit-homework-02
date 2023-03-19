@@ -234,16 +234,10 @@ body {
     background: #F4F4FD;
 }
 
-.portfolio-btn:hover
+.portfolio-btn:hover,
 .portfolio-btn:focus {
     color: #FFFFFF;
     background: #404BBF;
-    cursor: pointer;
-}
-.portfolio-btn.btn:hover
-.portfolio-btn.btn:focus {
-    color: #FFFFFF;
-    background-color: #404BBF;
     cursor: pointer;
 }
 
