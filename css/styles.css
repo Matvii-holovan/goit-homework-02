@@ -234,8 +234,8 @@ body {
     background: #F4F4FD;
 }
 
-.portfolio-btn:hover,
-.portfolio-btn:focus {
+.portfolio-btn.btn:hover,
+.portfolio-btn.btn:focus {
     color: #FFFFFF;
     background: #404BBF;
     cursor: pointer;
